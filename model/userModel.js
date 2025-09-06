@@ -3,16 +3,16 @@ const bcrypt = require('bcryptjs');
 // In-memory user database
 const users = [
   {
-    username: 'julio', 
+    username: 'Rogerio', 
     password: bcrypt.hashSync('123456', 8), 
-    favorecidos: [ 'priscila' ], 
-    saldo: 10000
+    favorecidos: [ 'Lais' ], 
+    saldo: 100
   },
   {
-    username: 'priscila', 
+    username: 'Lais', 
     password: bcrypt.hashSync('123456', 8), 
-    favorecidos: [ 'julio' ], 
-    saldo: 10000
+    favorecidos: [ 'Rogerio' ], 
+    saldo: 100
   }
 ];
 

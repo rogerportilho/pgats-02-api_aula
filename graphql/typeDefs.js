@@ -8,6 +8,7 @@ module.exports = gql`
   }
 
   type Transfer {
+    id: ID!
     from: String!
     to: String!
     value: Float!
